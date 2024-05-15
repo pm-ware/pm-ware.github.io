@@ -19,7 +19,7 @@ function displayOutput(output) {
     let promptColor = 'rgb(183, 0, 255)';
     switch(output){
         case "help":
-            output_msg.innerHTML += '<span style="color: ' + promptColor + ';">pmware@Home-Page:/$ </span><span style="color: white;">' + output + '<br>' + UpperOutput  + ': help - "Shows information about the terminal" , about - "Shows information about the website" , contact - "Shows where to contact the creator of this web-terminal" , clear - "Clears the previous output, play theme - "Plays the main theme of the website!"' + '<br><br></span>';
+            output_msg.innerHTML += '<span style="color: ' + promptColor + ';">pmware@Home-Page:/$ </span><span style="color: white;">' + output + '<br>' + UpperOutput  + ': help - "Shows information about the terminal" , about - "Shows information about the website" , contact - "Shows where to contact the creator of this web-terminal" , clear - "Clears the previous output" , play theme - "Plays the main theme of the website!"' + '<br><br></span>';
             break;
         case "about":
             output_msg.innerHTML += '<span style="color: ' + promptColor + ';">pmware@Home-Page:/$ </span><span style="color: white;">' + output + '<br>' + UpperOutput  + ': Hello there, traveler. Welcome to my humble abode on the web, I hope you enjoy your stay! As you can tell, this is a terminal inspired website that is still in construction!<br><br></span>';
